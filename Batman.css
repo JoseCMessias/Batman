@@ -1,0 +1,35 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 100;
+   padding: 100;
+   background-image: url(/image/Batman-fundo.jpg);
+   background-size: cover; 
+   background-repeat: no-repeat; 
+}
+
+.retangulo {
+   text-align: center; 
+   padding: 50px; 
+   background-color: rgb(255, 255, 255, 0.6); 
+   border: 2px solid #ded302; 
+   margin: 25%; 
+}
+
+.retangulo p{
+   text-align: justify; 
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Fonte da letra*/
+   font-size: 11px 
+}
+
+h1, a, img{
+   font-size: 20px; 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+a{
+   text-decoration:solid; 
+   color: #ded302;  
+}
