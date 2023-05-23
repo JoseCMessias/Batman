@@ -34,6 +34,6 @@ a {
   color: #050505;
 }
 
-a .linkBatman:hover{
+a:hover{
   color: rgb(214, 220, 25);
 }
