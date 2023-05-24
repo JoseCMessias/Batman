@@ -24,7 +24,9 @@ body {
   font-size: 11px;
 }
 
-h1, a, img {
+h1,
+a,
+img {
   font-size: 20px;
   font-family: Arial;
 }
@@ -34,6 +36,11 @@ a {
   color: #050505;
 }
 
-a:hover{
+a:hover {
   color: rgb(214, 220, 25);
+}
+
+audio {
+  width: 150px;
+  height: 30px;
 }
