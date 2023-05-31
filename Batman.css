@@ -8,6 +8,7 @@ body {
   background-image: url(/image/Batman-fundo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .retangulo {
@@ -24,9 +25,7 @@ body {
   font-size: 11px;
 }
 
-h1,
-a,
-img {
+h1,a,img {
   font-size: 20px;
   font-family: Arial;
 }
@@ -36,11 +35,6 @@ a {
   color: #050505;
 }
 
-a:hover {
-  color: rgb(214, 220, 25);
-}
-
-audio {
-  width: 150px;
-  height: 30px;
+a:hover, h1:hover {
+  color: rgb(220, 191, 25);
 }
