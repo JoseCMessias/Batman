@@ -1,21 +1,21 @@
 body {
-  display: flex;
+  background-image: url(/image/Batman-fundo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
   align-items: center;
+  display: flex;
   height: 100vh;
-  margin: 100;
   padding: 100;
-  background-image: url(/image/Batman-fundo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  margin: 100; 
 }
 
 .retangulo {
-  text-align: center;
-  padding: 5%;
-  border-radius: 5px;
   background-color: rgb(255, 252, 252, 0.6);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5%;
   margin: 25%;
 }
 
@@ -25,9 +25,9 @@ body {
   font-size: 11px;
 }
 
-h1,a,img {
-  font-size: 20px;
+h1,a{
   font-family: Arial;
+  font-size: 20px;
 }
 
 a {
