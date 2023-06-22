@@ -3,12 +3,12 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
   height: 100vh;
   padding: 100;
-  margin: 100;
+  margin: 100; 
 }
 
 .retangulo {
@@ -19,37 +19,35 @@ body {
   margin: 25%;
 }
 
-.retangulo p {
+.retangulo p {  
   transition: 1000ms;
   text-align: justify;
   font-family: Arial;
   font-size: 11px;
 }
 
-h1,
-a {
+h1,a{  
   transition-duration: 700ms;
   font-family: Arial;
   font-size: 20px;
 }
 
-a {
+a {  
   text-decoration: solid;
   color: #050505;
 }
 
-a:hover,
-h1:hover {
+a:hover, h1:hover {
   transition-duration: 700ms;
   color: rgb(220, 191, 25);
 }
 
-.retangulo p:hover {
+.retangulo p:hover{
   color: rgb(220, 191, 25);
   transition: 1000ms;
 }
 
-.retangulo:hover {
+.retangulo:hover{
   transition: 1000ms;
   background-color: rgba(56, 50, 50, 0.6);
   color: white;
